@@ -83,13 +83,13 @@ void setWidth(int input, int *width) {
 }
 
 int getPerimeter(int *length, int *width) {
-	int perimeter = *length + *length + *width;
+	int perimeter = *length + *length + *width + *width; // add a width to calculate the perimeter
 	return perimeter;
 }
 
 int getArea(int *length, int *width) {
 	int area = *length * *width;
-	return area;
+	return area;	
 }
 
 void printWelcomeMenu() {
